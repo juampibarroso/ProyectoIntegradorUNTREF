@@ -8,56 +8,8 @@
   <title>UntrefSchool</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="icon" href="img/logo.png">
-  <style>
-
-    /* PALETA DE COLORES SUMINISTRADA POR EL CLIENTE*/
-    :root {
-      --color1: #FC7300;
-      --color2: #1F8A70;
-      --color3: #00425A;
-      --color4: #181823;
-      --color5: #EFF5F5;
-    }
-
-    /* Estilos de la barra de navegación */
-    .navbar {
-      background-color: var(--color1);
-    }
-
-    .navbar-nav .nav-link {
-      color: var(--color5);
-    }
-
-    .navbar-nav .nav-link:hover {
-      color: var(--color5);
-      background-color: var(--color2);
-    }
-
-    /* Estilos para las secciones */
-    .section-primary {
-      background-color: var(--color2);
-      color: var(--color5);
-    }
-
-    .section-secondary {
-      background-color: var(--color3);
-      color: var(--color5);
-    }
-
-    .section-dark {
-      background-color: var(--color2);
-      color: var(--color5);
-    }
-  </style>
-
-  <!-- media queris -->
-  <style>
-    @media (max-width: 768px) {
-   }
-
-    @media (max-width: 320px) {
-   }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
 
@@ -100,32 +52,8 @@
       <h1 class="text-center">¿Quienes somos?</h1>
       <br>
       <p class="fs-4 text-center"> La Universidad Tres de Febrero es una institución educativa de vanguardia que ofrece una formación académica de calidad, una amplia variedad de programas, una infraestructura moderna y oportunidades de desarrollo profesional.</p>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      <br>
+      <img src="img/img1.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="700px">
       <br>
       <p class="fs-2 text-center">¡Es el lugar ideal para aquellos que buscan una educación superior de excelencia!</p>
     </div>
@@ -136,8 +64,11 @@
     <div class="container">
       <h1 class="text-center">¿Por que elegirnos?</h1>
       <br>
-      <p class="fs-4 text-center">Somos una institución académica de renombre que tiene mucho que ofrecer:</p>
-      <p class="fs-2 text-center">¡Es el lugar ideal para aquellos que buscan una educación superior de excelencia!</p>
+      <p class="fs-4 text-center">Untref ofrece una educación integral de calidad con diversas carreras de grado y licenciaturas. Nuestro cuerpo docente altamente capacitado y recursos tecnológicos modernos aseguran un aprendizaje de excelencia. Fomentamos el pensamiento crítico y creativo, brindándote herramientas para enfrentar el mundo laboral. También ofrecemos programas internacionales para enriquecer tu experiencia académica. Únete a Untref y construye un futuro exitoso</p>
+      <br>
+      <img src="img/img2.jpg" class="img-fluid rounded mx-auto d-block" alt="..." width="700px">
+      <br>
+      <p class="fs-2 text-center"> ¡ Que estas esperando para ser parte de esta gran familia educativa !</p>
     </div>
   </section>
 
@@ -167,7 +98,7 @@
              Historia /Geografía / Ciencias de la Educación / Gestión Educativa / Educación Secundaria / Gestión del Deporte / Resolución de Conflictos y Mediación / Enfermería / Instrumentación Quirúrgica / Gestión Inmobiliaria.
             </div>
             <div class="tab-pane fade fs-3 text-center text-bg-primary p-3" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-              Computación  /  Sonido  /  Ambiental
+              Computación / Sonido  /  Ambiental
              </div>
             <div class="tab-pane fade fs-5 text-center text-bg-primary p-3" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
               Políticas y Administración de la Educación / Planeamiento y Gestión de la Educación / Orientación Vocacional y Educativa / Gestión y Docencia para la Educación Superior / Metodología Científica y Epistemología / Diversidad Cultural / Salud y Seguridad Social / Programa en Artes / Ciencias de la Gestión / Logística y Alimentos / Estudios Posdoctorales 
@@ -230,57 +161,58 @@
 
   <!-- Formulario -->
   <section id="formulario" class="py-5 section-dark">
-    <div class="container">
-      <h2>Iniciar Sesion: </h2>
-      <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Correo Electronico:</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Recuerdame.</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
-</form>
-      <!-- Agrega aquí tu formulario -->
-    </div>
+    <section style="font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto;">
+      <fieldset style="border: 1px solid #ccc; border-radius: 8px; padding: 20px;">
+        <legend style="font-size: 18px; font-weight: bold;">Formulario de Contacto</legend>
+        <form action="https://formsubmit.co/ method="POST" >
+          <label style="display: block; margin-bottom: 5px;">Email</label>
+          <input type="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+          
+          <br>
+          <label style="display: block; margin-bottom: 5px;">Motivo</label>
+          <select name="motivo" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+            <option value="Consulta" selected>Consulta</option>
+            <option value="Saludo">Saludo</option>
+            <option value="Queja">Queja</option>
+          </select>
+          
+          <br>
+          <label style="display: block; margin-bottom: 5px;">Mensaje</label>
+          <textarea name="mensaje" required style="width: 100%; height: 150px; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+          
+          <br>
+          <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Enviar</button>
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </fieldset>
+    </section>
+    
+    <div class="bigspace" style="height: 20px;"></div>
+    
   </section>
 
   <!-- Pie de página -->
   <footer class="bg-dark text-light py-4">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 text-">
           <!-- Redes sociales -->
           <h5>Redes sociales</h5>
-          
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+
         </div>
-        <div class="col-md-4 text-center">
-          <!-- Nombre del instituto -->
+        <div class="col-md-4 text-center" >
           <h5>UntrefSchool</h5>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.861366641207!2d-58.583391112841824!3d-34.60503789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb9f8ff113%3A0x22fd08da6711928d!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20-%20Sede%20Caseros%20I!5e0!3m2!1ses!2sar!4v1690396460917!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe style="height: 200px; width: 200px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.861366641207!2d-58.583391112841824!3d-34.60503789999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb9f8ff113%3A0x22fd08da6711928d!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20-%20Sede%20Caseros%20I!5e0!3m2!1ses!2sar!4v1690396460917!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="col-md-4 text-end">
           <!-- Información de contacto -->
-          
           <h5>Contacto</h5>
-          <p>
-          (11) 2473-5572 
-            
-          </p>
-          <p>
-          (11) 4734-4258/ 4268/ 4271/ 4287
-            
-          </p>
-          <p>
-          infovirtual@untref.edu.ar
-          </p>
+          <p>Wsp: (11) 2473-5572</p>
+          <p>Tel: (11) 4734-4258/ 4268/ 4271/ 4287</p>
+          <p>email: infovirtual@untref.edu.ar</p>
         </div>
       </div>
     </div>
